@@ -92,11 +92,7 @@ var fetchAdData = function fetchAdData(contentId) {
       //* Removing trailing '/' from DataUrl
       //* Fetching ad data
       fetch('https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/data.json', {
-        method: 'GET',
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json'
-        }
+        method: 'GET'
       }).then(function (fetch_res) {
         fetch_res.json().then(function (jsonData) {
           //* Sorting according ad data according to start_time

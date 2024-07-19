@@ -12,10 +12,10 @@ export const fetchAdData = (contentId: string): Promise<any> => {
         'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/data.json',
         {
           method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-            Accept: 'application/json',
-          },
+          // headers: {
+          //   'Content-Type': 'application/json',
+          //   Accept: 'application/json',
+          // },
         }
       )
         .then(fetch_res => {
