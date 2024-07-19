@@ -9,7 +9,7 @@ export const fetchAdData = (contentId: string): Promise<any> => {
       //* Removing trailing '/' from DataUrl
       //* Fetching ad data
       fetch(
-        'https://prakhar-goel.github.io/hotstar-quickcommerce-hackathon/data.json',
+        'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/data.json',
         {
           method: 'GET',
           headers: {
