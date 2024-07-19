@@ -86,86 +86,31 @@ var config = {
 };
 var shoppingBagSvg = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-shopping-bag\"><path d=\"M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z\"></path><line x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"></line><path d=\"M16 10a4 4 0 0 1-8 0\"></path></svg>";
 
-var sampleData = {
-  onam: {
-    adsData: [{
-      startTime: 5,
-      endTime: 20,
-      items: [{
-        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
-        redirectUrl: 'https://www.swiggy.com/city/delhi/dominos-pizza-100-ft-road-chhatarpur-rest239854',
-        title: 'Cheese Volcano Farmhouse',
-        description: 'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
-        price: '₹299'
-      }, {
-        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
-        redirectUrl: 'https://www.swiggy.com/city/delhi/dominos-pizza-100-ft-road-chhatarpur-rest239854',
-        title: 'Cheese Volcano Farmhouse',
-        description: 'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
-        price: '₹299'
-      }, {
-        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
-        redirectUrl: 'https://www.swiggy.com/city/delhi/dominos-pizza-100-ft-road-chhatarpur-rest239854',
-        title: 'Cheese Volcano Farmhouse',
-        description: 'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
-        price: '₹299'
-      }],
-      qrData: {
-        qrImageUrl: 'https://images.squarespace-cdn.com/content/v1/5d3f241fa4e0350001fa20d5/1636491460338-AIZAXV2978MGIDQE0GT7/qr-code.png?format=2500w',
-        title: 'Cheese Volcano Blazing Chicken'
-      }
-    }]
-  }
-};
 var fetchAdData = function fetchAdData(contentId) {
-  // return new Promise((res, rej) => {
-  //   try {
-  //     //* Removing trailing '/' from DataUrl
-  //     const data_url: string =
-  //       Config.DataUrl[Config.DataUrl.length - 1] !== '/'
-  //         ? Config.DataUrl
-  //         : Config.DataUrl.slice(0, Config.DataUrl.length - 2);
-  //     if (!file_name.includes('.json')) {
-  //       file_name += '.json';
-  //     }
-  //     //* Fetching ad data
-  //     fetch(`${data_url}/${file_name}`, {
-  //       method: 'GET',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //         Accept: 'application/json',
-  //       },
-  //     })
-  //       .then(fetch_res => {
-  //         fetch_res.json().then((json_data: []) => {
-  //           //* Sorting according ad data according to start_time
-  //           json_data.sort((a, b) => {
-  //             if (parseInt(a['start_time']) < parseInt(b['start_time'])) {
-  //               return -1;
-  //             }
-  //             if (parseInt(a['start_time']) > parseInt(b['start_time'])) {
-  //               return 1;
-  //             }
-  //             return 0;
-  //           });
-  //           res(json_data);
-  //         });
-  //       })
-  //       .catch(err => {
-  //         rej(err);
-  //       });
-  //   } catch (err) {
-  //     rej(err);
-  //   }
-  // });
   return new Promise(function (res, rej) {
-    if (sampleData[contentId]) {
-      console.log('adsData', sampleData[contentId].adsData);
-      res(sampleData[contentId].adsData);
-    } else {
-      console.log(sampleData, contentId);
-      console.log(sampleData[contentId]);
-      rej('No data found');
+    try {
+      //* Removing trailing '/' from DataUrl
+      //* Fetching ad data
+      fetch('https://prakhar-goel.github.io/hotstar-quickcommerce-hackathon/data.json', {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json'
+        }
+      }).then(function (fetch_res) {
+        fetch_res.json().then(function (jsonData) {
+          //* Sorting according ad data according to start_time
+          if (jsonData[contentId]) {
+            res(jsonData[contentId].adsData);
+          } else {
+            rej('No data found');
+          }
+        });
+      })["catch"](function (err) {
+        rej(err);
+      });
+    } catch (err) {
+      rej(err);
     }
   });
 }; //* Finds video element according to the given data attribute ex: data-displaymaxtap
