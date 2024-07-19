@@ -50,55 +50,35 @@ const sampleData = {
   },
 };
 export const fetchAdData = (contentId: string): Promise<any> => {
-  // return new Promise((res, rej) => {
-  //   try {
-  //     //* Removing trailing '/' from DataUrl
-  //     const data_url: string =
-  //       Config.DataUrl[Config.DataUrl.length - 1] !== '/'
-  //         ? Config.DataUrl
-  //         : Config.DataUrl.slice(0, Config.DataUrl.length - 2);
-
-  //     if (!file_name.includes('.json')) {
-  //       file_name += '.json';
-  //     }
-  //     //* Fetching ad data
-  //     fetch(`${data_url}/${file_name}`, {
-  //       method: 'GET',
-  //       headers: {
-  //         'Content-Type': 'application/json',
-  //         Accept: 'application/json',
-  //       },
-  //     })
-  //       .then(fetch_res => {
-  //         fetch_res.json().then((json_data: []) => {
-  //           //* Sorting according ad data according to start_time
-  //           json_data.sort((a, b) => {
-  //             if (parseInt(a['start_time']) < parseInt(b['start_time'])) {
-  //               return -1;
-  //             }
-  //             if (parseInt(a['start_time']) > parseInt(b['start_time'])) {
-  //               return 1;
-  //             }
-  //             return 0;
-  //           });
-  //           res(json_data);
-  //         });
-  //       })
-  //       .catch(err => {
-  //         rej(err);
-  //       });
-  //   } catch (err) {
-  //     rej(err);
-  //   }
-  // });
   return new Promise((res, rej) => {
-    if (sampleData[contentId]) {
-      console.log('adsData', sampleData[contentId].adsData);
-      res(sampleData[contentId].adsData);
-    } else {
-      console.log(sampleData, contentId);
-      console.log(sampleData[contentId]);
-      rej('No data found');
+    try {
+      //* Removing trailing '/' from DataUrl
+      //* Fetching ad data
+      fetch(
+        'https://prakhar-goel.github.io/hotstar-quickcommerce-hackathon/data.json',
+        {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            Accept: 'application/json',
+          },
+        }
+      )
+        .then(fetch_res => {
+          fetch_res.json().then((jsonData: []) => {
+            //* Sorting according ad data according to start_time
+            if (jsonData[contentId]) {
+              res(jsonData[contentId].adsData);
+            } else {
+              rej('No data found');
+            }
+          });
+        })
+        .catch(err => {
+          rej(err);
+        });
+    } catch (err) {
+      rej(err);
     }
   });
 };
