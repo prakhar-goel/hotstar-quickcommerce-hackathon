@@ -1,0 +1,10 @@
+*.log
+.DS_Store
+node_modules
+lib
+package-lock.json
+examples/reactjs/node_modules
+examples/nextjs/node_modules
+examples/vue-test/node_modules
+dist
+package-lock.json
