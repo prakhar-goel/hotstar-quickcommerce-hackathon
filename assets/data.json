@@ -39,7 +39,7 @@
                     "description": "Cook with Sanjeev Kapoor",
                     "price": "₹220",
                     "redirectUrl": "https://swiggy.com/instamart/search?query=cream",
-                    "deliveryTime": "7 mins",
+                    "deliveryTime": "6 mins",
                     "qrData": {
                         "qrImageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/amulcream-swiggy.png",
                         "title": "Amul Fresh Cream"

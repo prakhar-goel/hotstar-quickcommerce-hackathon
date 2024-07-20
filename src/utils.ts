@@ -22,7 +22,7 @@ export const fetchAdData = (contentId: string): Promise<any> => {
           fetch_res.json().then((jsonData: []) => {
             //* Sorting according ad data according to start_time
             if (jsonData[contentId]) {
-              res(jsonData[contentId].adsData);
+              res(jsonData[contentId].triggerPoints);
             } else {
               rej('No data found');
             }
