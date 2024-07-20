@@ -308,6 +308,8 @@ class AdComponent {
         <h3 class="title">${itemCardData.title}</h3>
         <p class="description">${description}</p>
         <p class="price">${itemCardData.price}</p>
+        <img class="brand" src="
+        />
       </div>
       `;
       this.adDivComponent.appendChild(item);

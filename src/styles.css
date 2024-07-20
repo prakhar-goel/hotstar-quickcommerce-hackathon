@@ -25,14 +25,14 @@
 }
 
 .hotstar_ad_component_wrapper .shop-button {
-	background-color: transparent;
+	background-color: hsla(0, 0%, 100%, 10%);
 	display: flex;
 	align-items: center;
 	width: fit-content;
 	gap: 4px;
 	color: #fff;
 	font-weight: 500;
-	margin-bottom: 4.2rem;
+	height: 10rem;
 }
 
 .hotstar_ad_component_wrapper .shop-button span {
@@ -42,7 +42,7 @@
 }
 
 .hotstar_ad_component_wrapper .ad_item_card {
-	background-color: #00000079;
+	background-color: hsla(0, 0, 100%, 10%);
 	border-radius: 8px;
 	display: flex;
 	flex-direction: row;
@@ -64,6 +64,8 @@
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content {
 	width: 70%;
 	padding: 0 10px;
+	display: flex;
+	flex-direction: column;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .title {

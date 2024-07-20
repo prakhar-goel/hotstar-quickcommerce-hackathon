@@ -19,6 +19,9 @@ export default interface AdComponentData {
     title: string;
     description: string;
     price: string;
+    discount?: string;
+    previousPrice?: string;
+    deliveryTime: string;
   }[];
   qrData: {
     qrImageUrl: string;

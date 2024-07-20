@@ -14,6 +14,7 @@
                     "discount": "50%",
                     "redirectUrl": "https://swiggy.com/search?query=dominos+pizza",
                     "deliveryTime": "28 mins",
+                    "brandLogoUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png",
                     "qrData": {
                         "qrImageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/pizza-swiggy.png",
                         "title": "Cheese Volcano Blazing Chicken"
@@ -28,6 +29,7 @@
                     "discount": "50%",
                     "redirectUrl": "https://www.swiggy.com/search?query=shrikhand",
                     "deliveryTime": "7 mins",
+                    "brandLogoUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png",
                     "qrData": {
                         "qrImageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/shrikhand-swiggy.png",
                         "title": "Mango Shrikhand"
@@ -40,6 +42,7 @@
                     "price": "₹220",
                     "redirectUrl": "https://swiggy.com/instamart/search?query=cream",
                     "deliveryTime": "6 mins",
+                    "brandLogoUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png",
                     "qrData": {
                         "qrImageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/amulcream-swiggy.png",
                         "title": "Amul Fresh Cream"
