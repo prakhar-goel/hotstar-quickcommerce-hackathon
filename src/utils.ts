@@ -3,34 +3,233 @@ import { AdComponentData, GaGeneric } from './types';
 import { LIB_VERSION } from './version';
 import * as platform from 'platform';
 
+const sampleData = {
+  '1000063091': {
+    contentId: '1000063091',
+    triggerPoints: [
+      {
+        startTime: 5,
+        endTime: 10,
+        ads: [
+          {
+            imageUrl:
+              'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
+            title: 'Veg Cheese Pizza',
+            description:
+              'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
+            price: '₹149',
+            previousPrice: '₹299',
+            discount: '50% off for Hotstar users',
+            redirectUrl: 'https://swiggy.com/search?query=dominos+pizza',
+            deliveryTime: '28 mins',
+            brandLogoUrl:
+              'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
+            brandColor: '#FC8019',
+            qrData: {
+              qrImageUrl:
+                'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/pizza-swiggy.png',
+              title: 'Cheese Volcano Blazing Chicken',
+            },
+          },
+          // {
+          //   imageUrl:
+          //     'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/oqaxbzhq3wxnyz09upie',
+          //   title: 'Mango Shrikhand',
+          //   description: 'Our most selling shrikhad with rich kesar taste',
+          //   price: '₹100',
+          //   previousPrice: '₹199',
+          //   discount: '50% off for Hotstar users',
+          //   redirectUrl: 'https://www.swiggy.com/search?query=shrikhand',
+          //   deliveryTime: '7 mins',
+          //   brandColor: '#FC8019',
+          //   brandLogoUrl:
+          //     'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
+          //   qrData: {
+          //     qrImageUrl:
+          //       'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/shrikhand-swiggy.png',
+          //     title: 'Mango Shrikhand',
+          //   },
+          // },
+          // {
+          //   imageUrl:
+          //     'https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/d2fe71ba49d3e43af5d99a3ce3ef5a1b',
+          //   title: 'Amul Fresh Cream',
+          //   description: 'Cook with Sanjeev Kapoor',
+          //   price: '₹220',
+          //   redirectUrl: 'https://swiggy.com/instamart/search?query=cream',
+          //   deliveryTime: '6 mins',
+          //   brandColor: '#FC8019',
+          //   brandLogoUrl:
+          //     'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy-instamart.png',
+          //   qrData: {
+          //     qrImageUrl:
+          //       'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/amulcream-swiggy.png',
+          //     title: 'Amul Fresh Cream',
+          //   },
+          // },
+        ],
+      },
+      {
+        startTime: 12,
+        endTime: 15,
+        ads: [
+          {
+            imageUrl:
+              'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
+            title: 'Veg Cheese Pizza',
+            description:
+              'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
+            price: '₹149',
+            previousPrice: '₹299',
+            discount: '50% off for Hotstar users',
+            redirectUrl: 'https://swiggy.com/search?query=dominos+pizza',
+            deliveryTime: '28 mins',
+            brandLogoUrl:
+              'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
+            brandColor: '#FC8019',
+            qrData: {
+              qrImageUrl:
+                'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/pizza-swiggy.png',
+              title: 'Cheese Volcano Blazing Chicken',
+            },
+          },
+          {
+            imageUrl:
+              'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/oqaxbzhq3wxnyz09upie',
+            title: 'Mango Shrikhand',
+            description: 'Our most selling shrikhad with rich kesar taste',
+            price: '₹100',
+            previousPrice: '₹199',
+            discount: '50% off for Hotstar users',
+            redirectUrl: 'https://www.swiggy.com/search?query=shrikhand',
+            deliveryTime: '7 mins',
+            brandColor: '#FC8019',
+            brandLogoUrl:
+              'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
+            qrData: {
+              qrImageUrl:
+                'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/shrikhand-swiggy.png',
+              title: 'Mango Shrikhand',
+            },
+          },
+          // {
+          //   imageUrl:
+          //     'https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/d2fe71ba49d3e43af5d99a3ce3ef5a1b',
+          //   title: 'Amul Fresh Cream',
+          //   description: 'Cook with Sanjeev Kapoor',
+          //   price: '₹220',
+          //   redirectUrl: 'https://swiggy.com/instamart/search?query=cream',
+          //   deliveryTime: '6 mins',
+          //   brandColor: '#FC8019',
+          //   brandLogoUrl:
+          //     'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy-instamart.png',
+          //   qrData: {
+          //     qrImageUrl:
+          //       'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/amulcream-swiggy.png',
+          //     title: 'Amul Fresh Cream',
+          //   },
+          // },
+        ],
+      },
+      {
+        startTime: 17,
+        endTime: 25,
+        ads: [
+          {
+            imageUrl:
+              'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
+            title: 'Veg Cheese Pizza',
+            description:
+              'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
+            price: '₹149',
+            previousPrice: '₹299',
+            discount: '50% off for Hotstar users',
+            redirectUrl: 'https://swiggy.com/search?query=dominos+pizza',
+            deliveryTime: '28 mins',
+            brandLogoUrl:
+              'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
+            brandColor: '#FC8019',
+            qrData: {
+              qrImageUrl:
+                'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/pizza-swiggy.png',
+              title: 'Cheese Volcano Blazing Chicken',
+            },
+          },
+          {
+            imageUrl:
+              'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/oqaxbzhq3wxnyz09upie',
+            title: 'Mango Shrikhand',
+            description: 'Our most selling shrikhad with rich kesar taste',
+            price: '₹100',
+            previousPrice: '₹199',
+            discount: '50% off for Hotstar users',
+            redirectUrl: 'https://www.swiggy.com/search?query=shrikhand',
+            deliveryTime: '7 mins',
+            brandColor: '#FC8019',
+            brandLogoUrl:
+              'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
+            qrData: {
+              qrImageUrl:
+                'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/shrikhand-swiggy.png',
+              title: 'Mango Shrikhand',
+            },
+          },
+          {
+            imageUrl:
+              'https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/d2fe71ba49d3e43af5d99a3ce3ef5a1b',
+            title: 'Amul Fresh Cream',
+            description: 'Cook with Sanjeev Kapoor',
+            price: '₹220',
+            redirectUrl: 'https://swiggy.com/instamart/search?query=cream',
+            deliveryTime: '6 mins',
+            brandColor: '#FC8019',
+            brandLogoUrl:
+              'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy-instamart.png',
+            qrData: {
+              qrImageUrl:
+                'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/amulcream-swiggy.png',
+              title: 'Amul Fresh Cream',
+            },
+          },
+        ],
+      },
+    ],
+  },
+};
+
 export const fetchAdData = (contentId: string): Promise<any> => {
   return new Promise((res, rej) => {
     try {
       //* Removing trailing '/' from DataUrl
       //* Fetching ad data
-      fetch(
-        'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/data.json',
-        {
-          method: 'GET',
-          // headers: {
-          //   'Content-Type': 'application/json',
-          //   Accept: 'application/json',
-          // },
-        }
-      )
-        .then(fetch_res => {
-          fetch_res.json().then((jsonData: []) => {
-            //* Sorting according ad data according to start_time
-            if (jsonData[contentId]) {
-              res(jsonData[contentId].triggerPoints);
-            } else {
-              rej('No data found');
-            }
-          });
-        })
-        .catch(err => {
-          rej(err);
-        });
+      // fetch(
+      //   'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/data.json',
+      //   {
+      //     method: 'GET',
+      //     // headers: {
+      //     //   'Content-Type': 'application/json',
+      //     //   Accept: 'application/json',
+      //     // },
+      //   }
+      // )
+      //   .then(fetch_res => {
+      //     fetch_res.json().then((jsonData: []) => {
+      //       //* Sorting according ad data according to start_time
+      //       if (jsonData[contentId]) {
+      //         res(jsonData[contentId].triggerPoints);
+      //       } else {
+      //         rej('No data found');
+      //       }
+      //     });
+      //   })
+      //   .catch(err => {
+      //     rej(err);
+      //   });
+      if (sampleData[contentId]) {
+        res(sampleData[contentId].triggerPoints);
+      } else {
+        rej('No data found');
+      }
     } catch (err) {
       rej(err);
     }

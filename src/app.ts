@@ -1,4 +1,4 @@
-import Config, { shoppingBagSvg } from './config';
+import Config, { clockSvg, shoppingBagSvg } from './config';
 import { AdComponentData } from './types';
 import {
   fetchAdData,
@@ -91,7 +91,7 @@ class AdComponent {
           //   this.componentsData[i]['image_error'] = false;
           // }
           //* Updating ad component for every 1s
-          this.intervalId = setInterval(this.updateComponent, 1000);
+          this.intervalId = setInterval(this.updateComponent, 300);
         })
         .catch(err => {
           console.error(err);
@@ -284,8 +284,8 @@ class AdComponent {
       return;
 
     const currentAdData = this.componentsData[this.currentComponentIndex];
-    if (currentAdData.items.length > 3) {
-      currentAdData.items = currentAdData.items.slice(0, 3);
+    if (currentAdData.ads.length > 3) {
+      currentAdData.ads = currentAdData.ads.slice(0, 3);
     }
 
     const shopButton = document.createElement('button');
@@ -293,29 +293,46 @@ class AdComponent {
     shopButton.innerHTML = `${shoppingBagSvg}<span>Shop</span>`;
     this.adDivComponent.appendChild(shopButton);
 
-    for (const itemCardData of currentAdData.items) {
-      const description =
+    for (const itemCardData of currentAdData.ads) {
+      const descriptionText =
         itemCardData.description.length > 70
           ? itemCardData.description.slice(0, 70) + '...'
           : itemCardData.description;
       const item = document.createElement('a');
+
+      let title = itemCardData.title;
+      let priceHtml = ``;
+      let descriptionHtml = ``;
+      if (!itemCardData.previousPrice) {
+        title = `${itemCardData.title} (${itemCardData.price})`;
+        descriptionHtml = `<p class="description">${descriptionText}</p>`;
+      } else {
+        priceHtml = `<p class="price">
+          <strong>${itemCardData.price}</strong>
+          <span class="previous_price">${itemCardData.previousPrice}</span>
+          <span class="discount" style="color:${itemCardData.brandColor}!important;">(${itemCardData.discount})</span>
+        </p>`;
+      }
       item.className = 'ad_item_card';
       item.href = itemCardData.redirectUrl;
       item.target = '_blank';
       item.innerHTML = `
       <img src="${itemCardData.imageUrl}" alt="${itemCardData.title}"/>
       <div class="ad_item_card_content">
-        <h3 class="title">${itemCardData.title}</h3>
-        <p class="description">${description}</p>
-        <p class="price">${itemCardData.price}</p>
-        <img class="brand" src="
-        />
+        <h3 class="title">${title}</h3>
+        ${descriptionHtml}
+        ${priceHtml}
+        <div class="delivery_time">
+        ${clockSvg}
+        <p>${itemCardData.deliveryTime}</p>
+        </div>
+        <img class="brand" src="${itemCardData.brandLogoUrl}" alt="brand-logo"/>
       </div>
       `;
       this.adDivComponent.appendChild(item);
     }
 
-    if (currentAdData.items.length > 0) {
+    if (currentAdData.ads.length > 0) {
       // Put "Or" text
       const orText = document.createElement('p');
       orText.className = 'or_text';

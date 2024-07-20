@@ -31,7 +31,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = ".hotstar_ad_component_wrapper{align-items:end;box-sizing:border-box;display:flex;flex-direction:row;height:100%;left:0;padding-bottom:7.5rem;padding-left:2rem;padding-right:2rem;position:absolute;top:0;width:100%;z-index:100}.hotstar_ad_component_wrapper .or_text{color:#fff;font-size:1rem;font-weight:500;margin-bottom:4.2rem;margin-left:auto;margin-right:auto}.hotstar_ad_component_wrapper .shop-button{align-items:center;background-color:transparent;color:#fff;display:flex;font-weight:500;gap:4px;margin-bottom:4.2rem;width:-webkit-fit-content;width:-moz-fit-content;width:fit-content}.hotstar_ad_component_wrapper .shop-button span{font-family:inherit;font-size:inherit;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card{align-items:center;background-color:#00000079;border-radius:8px;cursor:pointer;display:flex;flex-direction:row;height:10rem;margin-left:1rem;padding:10px;width:22rem}.hotstar_ad_component_wrapper .ad_item_card img{border-radius:8px;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;-o-object-fit:cover;object-fit:cover;width:30%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content{padding:0 10px;width:70%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .title{color:#fff;font-size:1rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .description{color:#ffffffb3;font-size:.8rem;font-weight:regular;margin-top:2px}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price{color:#fff;font-size:1rem;font-weight:500;margin-top:1rem}.hotstar_ad_component_wrapper .qr_container{background-color:#00000079;border-radius:8px;display:flex;flex-direction:column;height:20rem;padding:1rem;width:18rem}.hotstar_ad_component_wrapper .qr_container img{border-radius:8px;height:auto;-o-object-fit:contain;object-fit:contain;width:100%}.hotstar_ad_component_wrapper .qr_container p{color:#fff;font-size:1rem;font-weight:500;margin-top:1rem;text-align:center}@media only screen and (max-width:650px){.hotstar_ad_component_wrapper{bottom:20%}@media(orientation:landscape){.maxtap_main>p{font-size:calc(1vw + .2rem)}}@media (orientation:portrait){.maxtap_main>p{font-size:calc(1vw + .3rem)}}}";
+var css_248z = ".hotstar_ad_component_wrapper{align-items:end;box-sizing:border-box;display:flex;flex-direction:row;font-family:inherit;height:100%;left:0;padding-bottom:7.5rem;padding-left:7rem;padding-right:7rem;position:absolute;top:0;width:100%;z-index:100}.hotstar_ad_component_wrapper .or_text{color:#fff;font-size:1rem;font-weight:500;height:10rem;margin-left:auto;margin-right:auto}.hotstar_ad_component_wrapper .shop-button{align-items:center;background-color:#0000004d;border-radius:8px;color:#fff;display:flex;font-weight:500;gap:4px;height:10rem;justify-content:center;padding:10px;width:10rem}.hotstar_ad_component_wrapper .shop-button span{font-family:inherit;font-size:inherit;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card{align-items:center;background-color:#0000004d;border-radius:8px;cursor:pointer;display:flex;flex-direction:row;font-family:inherit;height:10rem;margin-left:1rem;padding:10px;width:24rem}.hotstar_ad_component_wrapper .ad_item_card img{border-radius:8px;height:-webkit-fit-content;height:-moz-fit-content;height:fit-content;-o-object-fit:cover;object-fit:cover;width:30%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content{display:flex;flex-direction:column;font-family:inherit;padding:10px;width:70%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time{align-items:center;color:#fff;display:flex;flex-direction:row;font-family:inherit;font-size:1rem;gap:4px;margin-top:1.4rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time p{font-size:1rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time svg{height:1rem;width:1rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price span{font-family:inherit;font-size:1rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .previous_price{color:#ffffffb3;font-family:inherit;font-size:.8rem;text-decoration:line-through}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .discount{font-family:inherit;font-size:.8rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .title{color:#fff;font-family:inherit;font-size:1rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .description{color:#ffffffb3;font-family:inherit;font-size:.9rem;margin-top:2px}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price{color:#fff;font-family:inherit;font-size:1rem;font-weight:500;margin-top:2px}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .brand{margin-left:auto;width:5rem}.hotstar_ad_component_wrapper .qr_container{background-color:#00000079;border-radius:8px;display:flex;flex-direction:column;height:20rem;padding:1rem;width:18rem}.hotstar_ad_component_wrapper .qr_container img{border-radius:8px;height:auto;-o-object-fit:contain;object-fit:contain;width:100%}.hotstar_ad_component_wrapper .qr_container p{color:#fff;font-size:1rem;font-weight:500;margin-top:1rem;text-align:center}@media only screen and (max-width:650px){.hotstar_ad_component_wrapper{bottom:20%}@media(orientation:landscape){.maxtap_main>p{font-size:calc(1vw + .2rem)}}@media (orientation:portrait){.maxtap_main>p{font-size:calc(1vw + .3rem)}}}";
 styleInject(css_248z);
 
 var LIB_VERSION = "0.1.18";
@@ -85,26 +85,147 @@ var config = {
   DataUrl: "https://storage.googleapis.com/publicmaxtap-prod.appspot.com/data"
 };
 var shoppingBagSvg = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-shopping-bag\"><path d=\"M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z\"></path><line x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"></line><path d=\"M16 10a4 4 0 0 1-8 0\"></path></svg>";
+var clockSvg = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-clock\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg>";
 
+var sampleData = {
+  '1000063091': {
+    contentId: '1000063091',
+    triggerPoints: [{
+      startTime: 5,
+      endTime: 10,
+      ads: [{
+        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
+        title: 'Veg Cheese Pizza',
+        description: 'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
+        price: '₹149',
+        previousPrice: '₹299',
+        discount: '50% off for Hotstar users',
+        redirectUrl: 'https://swiggy.com/search?query=dominos+pizza',
+        deliveryTime: '28 mins',
+        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
+        brandColor: '#FC8019',
+        qrData: {
+          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/pizza-swiggy.png',
+          title: 'Cheese Volcano Blazing Chicken'
+        }
+      }]
+    }, {
+      startTime: 12,
+      endTime: 15,
+      ads: [{
+        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
+        title: 'Veg Cheese Pizza',
+        description: 'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
+        price: '₹149',
+        previousPrice: '₹299',
+        discount: '50% off for Hotstar users',
+        redirectUrl: 'https://swiggy.com/search?query=dominos+pizza',
+        deliveryTime: '28 mins',
+        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
+        brandColor: '#FC8019',
+        qrData: {
+          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/pizza-swiggy.png',
+          title: 'Cheese Volcano Blazing Chicken'
+        }
+      }, {
+        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/oqaxbzhq3wxnyz09upie',
+        title: 'Mango Shrikhand',
+        description: 'Our most selling shrikhad with rich kesar taste',
+        price: '₹100',
+        previousPrice: '₹199',
+        discount: '50% off for Hotstar users',
+        redirectUrl: 'https://www.swiggy.com/search?query=shrikhand',
+        deliveryTime: '7 mins',
+        brandColor: '#FC8019',
+        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
+        qrData: {
+          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/shrikhand-swiggy.png',
+          title: 'Mango Shrikhand'
+        }
+      }]
+    }, {
+      startTime: 17,
+      endTime: 25,
+      ads: [{
+        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
+        title: 'Veg Cheese Pizza',
+        description: 'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
+        price: '₹149',
+        previousPrice: '₹299',
+        discount: '50% off for Hotstar users',
+        redirectUrl: 'https://swiggy.com/search?query=dominos+pizza',
+        deliveryTime: '28 mins',
+        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
+        brandColor: '#FC8019',
+        qrData: {
+          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/pizza-swiggy.png',
+          title: 'Cheese Volcano Blazing Chicken'
+        }
+      }, {
+        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/oqaxbzhq3wxnyz09upie',
+        title: 'Mango Shrikhand',
+        description: 'Our most selling shrikhad with rich kesar taste',
+        price: '₹100',
+        previousPrice: '₹199',
+        discount: '50% off for Hotstar users',
+        redirectUrl: 'https://www.swiggy.com/search?query=shrikhand',
+        deliveryTime: '7 mins',
+        brandColor: '#FC8019',
+        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
+        qrData: {
+          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/shrikhand-swiggy.png',
+          title: 'Mango Shrikhand'
+        }
+      }, {
+        imageUrl: 'https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/d2fe71ba49d3e43af5d99a3ce3ef5a1b',
+        title: 'Amul Fresh Cream',
+        description: 'Cook with Sanjeev Kapoor',
+        price: '₹220',
+        redirectUrl: 'https://swiggy.com/instamart/search?query=cream',
+        deliveryTime: '6 mins',
+        brandColor: '#FC8019',
+        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy-instamart.png',
+        qrData: {
+          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/amulcream-swiggy.png',
+          title: 'Amul Fresh Cream'
+        }
+      }]
+    }]
+  }
+};
 var fetchAdData = function fetchAdData(contentId) {
   return new Promise(function (res, rej) {
     try {
       //* Removing trailing '/' from DataUrl
       //* Fetching ad data
-      fetch('https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/data.json', {
-        method: 'GET'
-      }).then(function (fetch_res) {
-        fetch_res.json().then(function (jsonData) {
-          //* Sorting according ad data according to start_time
-          if (jsonData[contentId]) {
-            res(jsonData[contentId].adsData);
-          } else {
-            rej('No data found');
-          }
-        });
-      })["catch"](function (err) {
-        rej(err);
-      });
+      // fetch(
+      //   'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/data.json',
+      //   {
+      //     method: 'GET',
+      //     // headers: {
+      //     //   'Content-Type': 'application/json',
+      //     //   Accept: 'application/json',
+      //     // },
+      //   }
+      // )
+      //   .then(fetch_res => {
+      //     fetch_res.json().then((jsonData: []) => {
+      //       //* Sorting according ad data according to start_time
+      //       if (jsonData[contentId]) {
+      //         res(jsonData[contentId].triggerPoints);
+      //       } else {
+      //         rej('No data found');
+      //       }
+      //     });
+      //   })
+      //   .catch(err => {
+      //     rej(err);
+      //   });
+      if (sampleData[contentId]) {
+        res(sampleData[contentId].triggerPoints);
+      } else {
+        rej('No data found');
+      }
     } catch (err) {
       rej(err);
     }
@@ -228,7 +349,7 @@ var AdComponent = /*#__PURE__*/function () {
           // }
           //* Updating ad component for every 1s
 
-          _this.intervalId = setInterval(_this.updateComponent, 1000);
+          _this.intervalId = setInterval(_this.updateComponent, 300);
         })["catch"](function (err) {
           console.error(err);
         });
@@ -412,8 +533,8 @@ var AdComponent = /*#__PURE__*/function () {
       if (_this.currentComponentIndex < 0 || !_this.componentsData[_this.currentComponentIndex]) return;
       var currentAdData = _this.componentsData[_this.currentComponentIndex];
 
-      if (currentAdData.items.length > 3) {
-        currentAdData.items = currentAdData.items.slice(0, 3);
+      if (currentAdData.ads.length > 3) {
+        currentAdData.ads = currentAdData.ads.slice(0, 3);
       }
 
       var shopButton = document.createElement('button');
@@ -422,19 +543,30 @@ var AdComponent = /*#__PURE__*/function () {
 
       _this.adDivComponent.appendChild(shopButton);
 
-      for (var _iterator = _createForOfIteratorHelperLoose(currentAdData.items), _step; !(_step = _iterator()).done;) {
+      for (var _iterator = _createForOfIteratorHelperLoose(currentAdData.ads), _step; !(_step = _iterator()).done;) {
         var itemCardData = _step.value;
-        var description = itemCardData.description.length > 70 ? itemCardData.description.slice(0, 70) + '...' : itemCardData.description;
+        var descriptionText = itemCardData.description.length > 70 ? itemCardData.description.slice(0, 70) + '...' : itemCardData.description;
         var item = document.createElement('a');
+        var title = itemCardData.title;
+        var priceHtml = "";
+        var descriptionHtml = "";
+
+        if (!itemCardData.previousPrice) {
+          title = itemCardData.title + " (" + itemCardData.price + ")";
+          descriptionHtml = "<p class=\"description\">" + descriptionText + "</p>";
+        } else {
+          priceHtml = "<p class=\"price\">\n          <strong>" + itemCardData.price + "</strong>\n          <span class=\"previous_price\">" + itemCardData.previousPrice + "</span>\n          <span class=\"discount\" style=\"color:" + itemCardData.brandColor + "!important;\">(" + itemCardData.discount + ")</span>\n        </p>";
+        }
+
         item.className = 'ad_item_card';
         item.href = itemCardData.redirectUrl;
         item.target = '_blank';
-        item.innerHTML = "\n      <img src=\"" + itemCardData.imageUrl + "\" alt=\"" + itemCardData.title + "\"/>\n      <div class=\"ad_item_card_content\">\n        <h3 class=\"title\">" + itemCardData.title + "</h3>\n        <p class=\"description\">" + description + "</p>\n        <p class=\"price\">" + itemCardData.price + "</p>\n      </div>\n      ";
+        item.innerHTML = "\n      <img src=\"" + itemCardData.imageUrl + "\" alt=\"" + itemCardData.title + "\"/>\n      <div class=\"ad_item_card_content\">\n        <h3 class=\"title\">" + title + "</h3>\n        " + descriptionHtml + "\n        " + priceHtml + "\n        <div class=\"delivery_time\">\n        " + clockSvg + "\n        <p>" + itemCardData.deliveryTime + "</p>\n        </div>\n        <img class=\"brand\" src=\"" + itemCardData.brandLogoUrl + "\" alt=\"brand-logo\"/>\n      </div>\n      ";
 
         _this.adDivComponent.appendChild(item);
       }
 
-      if (currentAdData.items.length > 0) {
+      if (currentAdData.ads.length > 0) {
         // Put "Or" text
         var orText = document.createElement('p');
         orText.className = 'or_text';

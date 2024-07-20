@@ -1,5 +1,6 @@
 .hotstar_ad_component_wrapper {
 	position: absolute;
+	font-family: inherit;
 	height: 100%;
 	width: 100%;
 	box-sizing: border-box;
@@ -11,24 +12,28 @@
 	top: 0px;
 	left: 0px;
 	padding-bottom: 7.5rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding-left: 7rem;
+	padding-right: 7rem;
 }
 
 .hotstar_ad_component_wrapper .or_text {
 	color: #fff;
 	font-size: 1rem;
 	font-weight: 500;
-	margin-bottom: 4.2rem;
 	margin-left: auto;
 	margin-right: auto;
+	font-weight: 500;
+	height: 10rem;
 }
 
 .hotstar_ad_component_wrapper .shop-button {
-	background-color: hsla(0, 0%, 100%, 10%);
+	background-color: #00000099;
 	display: flex;
 	align-items: center;
-	width: fit-content;
+	justify-content: center;
+	padding: 10px;
+	border-radius: 8px;
+	width: 10rem;
 	gap: 4px;
 	color: #fff;
 	font-weight: 500;
@@ -42,16 +47,17 @@
 }
 
 .hotstar_ad_component_wrapper .ad_item_card {
-	background-color: hsla(0, 0, 100%, 10%);
+	background-color: #00000099;
 	border-radius: 8px;
 	display: flex;
 	flex-direction: row;
-	width: 22rem;
+	width: 24rem;
 	height: 10rem;
 	align-items: center;
 	padding: 10px;
 	cursor: pointer;
 	margin-left: 1rem;
+	font-family: inherit;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card img {
@@ -63,29 +69,83 @@
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content {
 	width: 70%;
-	padding: 0 10px;
+	padding: 10px 10px;
 	display: flex;
 	flex-direction: column;
+	font-family: inherit;
+}
+
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: inherit;
+	gap: 4px;
+	color: #fff;
+	font-size: 1rem;
+	margin-top: 1.4rem;
+}
+
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time p {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time svg {
+	width: 1rem;
+	height: 1rem;
+}
+
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price {
+	font-family: inherit;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 500;
+	font-family: inherit;
+}
+
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price span {
+	font-size: 1rem;
+	font-family: inherit;
+}
+
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .previous_price {
+	text-decoration: line-through;
+	font-family: inherit;
+	color: #ffffffb3;
+	font-size: 0.8rem;
+}
+
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .discount {
+	font-family: inherit;
+	font-size: 0.8rem;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .title {
 	color: #fff;
+	font-family: inherit;
 	font-weight: 500;
 	font-size: 1rem;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .description {
+	font-family: inherit;
 	color: #ffffffb3;
-	font-size: 0.8rem;
-	font-weight: regular;
+	font-size: 0.9rem;
 	margin-top: 2px;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price {
+	font-family: inherit;
 	color: #fff;
 	font-size: 1rem;
 	font-weight: 500;
-	margin-top: 1rem;
+	margin-top: 2px;
+}
+
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .brand {
+	margin-left: auto;
+	width: 5rem;
 }
 
 .hotstar_ad_component_wrapper .qr_container {
