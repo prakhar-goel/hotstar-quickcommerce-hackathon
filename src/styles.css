@@ -75,7 +75,7 @@
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content {
 	width: 70%;
-	padding: 10px 10px;
+	padding: 0px 10px;
 	display: flex;
 	flex-direction: column;
 	font-family: inherit;
@@ -99,7 +99,7 @@
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .delivery_time p {
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	font-weight: 500;
 }
 
@@ -131,7 +131,7 @@
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .discount {
 	font-family: inherit;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .title {
@@ -151,13 +151,13 @@
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price {
 	font-family: inherit;
 	color: #fff;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 	font-weight: 500;
 	margin-top: 2px;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .brand {
-	width: 5rem;
+	width: 4rem;
 }
 
 .hotstar_ad_component_wrapper .qr_container {
