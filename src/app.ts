@@ -322,23 +322,22 @@ class AdComponent {
         <h3 class="title">${title}</h3>
         ${descriptionHtml}
         ${priceHtml}
-        <div class="delivery_time">
-        ${clockSvg}
-        <p>${itemCardData.deliveryTime}</p>
+        <div class="footer">
+          <div class="delivery_time">${clockSvg}<p>${itemCardData.deliveryTime}</p></div>
+          <img class="brand" src="${itemCardData.brandLogoUrl}" alt="brand-logo"/>
         </div>
-        <img class="brand" src="${itemCardData.brandLogoUrl}" alt="brand-logo"/>
       </div>
       `;
       this.adDivComponent.appendChild(item);
     }
 
-    if (currentAdData.ads.length > 0) {
-      // Put "Or" text
-      const orText = document.createElement('p');
-      orText.className = 'or_text';
-      orText.innerHTML = 'OR';
-      this.adDivComponent.appendChild(orText);
-    }
+    // if (currentAdData.ads.length > 0) {
+    //   // Put "Or" text
+    //   const orText = document.createElement('p');
+    //   orText.className = 'or_text';
+    //   orText.innerHTML = 'OR';
+    //   this.adDivComponent.appendChild(orText);
+    // }
 
     if (currentAdData.qrData) {
       const qrCard = document.createElement('div');

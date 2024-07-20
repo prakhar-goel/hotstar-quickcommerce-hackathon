@@ -27,33 +27,39 @@
 }
 
 .hotstar_ad_component_wrapper .shop-button {
-	background-color: #00000099;
+	background-color: #000000ad;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
 	border-radius: 8px;
-	width: 10rem;
+	width: 6rem;
 	gap: 4px;
 	color: #fff;
 	font-weight: 500;
-	height: 10rem;
+	height: 6rem;
 }
 
 .hotstar_ad_component_wrapper .shop-button span {
 	font-weight: 500;
-	font-size: inherit;
+	font-size: 0.6rem;
 	font-family: inherit;
 }
 
+.hotstar_ad_component_wrapper .shop-button svg {
+	width: 0.6rem;
+	height: 0.6rem;
+}
+
 .hotstar_ad_component_wrapper .ad_item_card {
-	background-color: #00000099;
+	background-color: #000000ad;
 	border-radius: 8px;
 	display: flex;
 	flex-direction: row;
-	width: 24rem;
-	height: 10rem;
-	align-items: center;
+	width: 21vw;
+	height: 6rem;
+	align-items: normal;
 	padding: 10px;
 	cursor: pointer;
 	margin-left: 1rem;
@@ -62,7 +68,7 @@
 
 .hotstar_ad_component_wrapper .ad_item_card img {
 	width: 30%;
-	height: fit-content;
+	height: auto;
 	object-fit: cover;
 	border-radius: 8px;
 }
@@ -75,37 +81,44 @@
 	font-family: inherit;
 }
 
-.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time {
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .delivery_time {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	font-family: inherit;
 	gap: 4px;
 	color: #fff;
-	font-size: 1rem;
-	margin-top: 1.4rem;
+	font-size: 0.6rem;
+	margin-top: 0.4rem;
 }
 
-.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time p {
-	font-size: 1rem;
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .delivery_time p {
+	font-size: 0.8rem;
 	font-weight: 500;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time svg {
-	width: 1rem;
-	height: 1rem;
+	width: 0.6rem;
+	height: 0.6rem;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price {
 	font-family: inherit;
 	color: #fff;
-	font-size: 1rem;
+	font-size: 0.6rem;
 	font-weight: 500;
 	font-family: inherit;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price span {
-	font-size: 1rem;
+	font-size: 0.6rem;
+	font-weight: 500;
 	font-family: inherit;
 }
 
@@ -113,7 +126,7 @@
 	text-decoration: line-through;
 	font-family: inherit;
 	color: #ffffffb3;
-	font-size: 0.8rem;
+	font-size: 0.6rem;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .discount {
@@ -125,7 +138,7 @@
 	color: #fff;
 	font-family: inherit;
 	font-weight: 500;
-	font-size: 1rem;
+	font-size: 0.8rem
 }
 
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .description {
@@ -138,13 +151,12 @@
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price {
 	font-family: inherit;
 	color: #fff;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	font-weight: 500;
 	margin-top: 2px;
 }
 
-.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .brand {
-	margin-left: auto;
+.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .brand {
 	width: 5rem;
 }
 
