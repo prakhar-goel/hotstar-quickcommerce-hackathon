@@ -3,8 +3,8 @@
         "contentId": "1000059862",
         "triggerPoints": [
             {
-                "startTime": 5,
-                "endTime": 15,
+                "startTime": 425,
+                "endTime": 440,
                 "ads": [
                     {
                         "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg",
@@ -55,8 +55,8 @@
                 ]
             },
             {
-                "startTime": 17,
-                "endTime": 25,
+                "startTime": 442,
+                "endTime": 450,
                 "ads": [
                     {
                         "imageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/images/hair-styling.jpg",
@@ -76,8 +76,8 @@
                 ]
             },
             {
-                "startTime": 27,
-                "endTime": 35,
+                "startTime": 452,
+                "endTime": 460,
                 "ads": [
                     {
                         "title": "Choker Necklace",
@@ -110,8 +110,8 @@
                 ]
             },
             {
-                "startTime": 38,
-                "endTime": 45,
+                "startTime": 463,
+                "endTime": 470,
                 "ads": [
                     {
                         "title": "Black Crop Top",
