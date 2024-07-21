@@ -1,4 +1,4 @@
-import Config, { clockSvg, shoppingBagSvg } from './config';
+import Config, { clockSvg } from './config';
 import { AdComponentData } from './types';
 import {
   fetchAdData,
@@ -290,10 +290,10 @@ class AdComponent {
       currentAdData.ads = currentAdData.ads.slice(0, 3);
     }
 
-    const shopButton = document.createElement('button');
-    shopButton.className = 'shop-button';
-    shopButton.innerHTML = `${shoppingBagSvg}<span>Shop</span>`;
-    this.adDivComponent.appendChild(shopButton);
+    // const shopButton = document.createElement('button');
+    // shopButton.className = 'shop-button';
+    // shopButton.innerHTML = `${shoppingBagSvg}<span>Shop</span>`;
+    // this.adDivComponent.appendChild(shopButton);
 
     for (let i = 0; i < currentAdData.ads.length; i++) {
       const itemCardData = currentAdData.ads[i];
