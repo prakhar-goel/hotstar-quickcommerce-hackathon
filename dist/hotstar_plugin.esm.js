@@ -27,7 +27,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = ".hotstar_ad_component_wrapper{align-items:end;box-sizing:border-box;display:flex;flex-direction:row;font-family:inherit;height:100%;left:0;padding-bottom:7.5rem;padding-left:7rem;padding-right:7rem;position:absolute;top:0;width:100%;z-index:100}.hotstar_ad_component_wrapper .or_text{color:#fff;font-size:1rem;font-weight:500;height:10rem;margin-left:auto;margin-right:auto}.hotstar_ad_component_wrapper .shop-button{align-items:center;background-color:#000000ad;border-radius:8px;color:#fff;display:flex;flex-direction:column;font-weight:500;gap:4px;height:6rem;justify-content:center;padding:10px;width:6rem}.hotstar_ad_component_wrapper .shop-button span{font-family:inherit;font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .shop-button svg{height:.6rem;width:.6rem}.hotstar_ad_component_wrapper .ad_item_card{align-items:normal;background-color:#000000ad;border-radius:8px;cursor:pointer;display:flex;flex-direction:row;font-family:inherit;height:6rem;margin-left:1rem;padding:10px;width:21vw}.hotstar_ad_component_wrapper .ad_item_card img{border-radius:8px;height:auto;-o-object-fit:cover;object-fit:cover;width:30%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content{display:flex;flex-direction:column;font-family:inherit;padding:0 10px;width:70%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer{align-items:flex-end;display:flex;flex-direction:row;justify-content:space-between;margin-top:auto}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .delivery_time{align-items:center;color:#fff;display:flex;flex-direction:row;font-family:inherit;font-size:.6rem;gap:4px;margin-top:.4rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .delivery_time p{font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time svg{height:.6rem;width:.6rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price span{font-family:inherit;font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .previous_price{color:#ffffffb3;font-family:inherit;font-size:.6rem;text-decoration:line-through}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .discount{font-family:inherit;font-size:.6rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .title{color:#fff;font-family:inherit;font-size:.8rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .description{color:#ffffffb3;font-family:inherit;font-size:.9rem;margin-top:2px}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price{color:#fff;font-family:inherit;font-size:.6rem;font-weight:500;margin-top:2px}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .brand{width:4rem}.hotstar_ad_component_wrapper .qr_container{background-color:#000000ad;border-radius:8px;display:flex;flex-direction:column;height:6rem;padding:.5rem;width:6rem}.hotstar_ad_component_wrapper .qr_container img{border-radius:8px;height:auto;-o-object-fit:contain;object-fit:contain;width:100%}@media only screen and (max-width:650px){.hotstar_ad_component_wrapper{bottom:20%}@media(orientation:landscape){.maxtap_main>p{font-size:calc(1vw + .2rem)}}@media (orientation:portrait){.maxtap_main>p{font-size:calc(1vw + .3rem)}}}";
+var css_248z = ".hotstar_ad_component_wrapper{align-items:end;box-sizing:border-box;display:flex;flex-direction:row;font-family:inherit;height:100%;left:0;padding-bottom:7.5rem;padding-left:7rem;padding-right:7rem;position:absolute;top:0;width:100%;z-index:100}.hotstar_ad_component_wrapper .or_text{color:#fff;font-size:1rem;font-weight:500;height:10rem;margin-left:auto;margin-right:auto}.hotstar_ad_component_wrapper .shop-button{align-items:center;background-color:#000000ad;border:2px solid transparent;border-radius:8px;color:#fff;display:flex;flex-direction:column;font-weight:500;gap:4px;height:6rem;justify-content:center;padding:10px;transition:all .3s ease;width:6rem}.hotstar_ad_component_wrapper .shop-button:hover{border:2px solid #fff}.hotstar_ad_component_wrapper .shop-button span{font-family:inherit;font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .shop-button svg{height:.6rem;width:.6rem}.hotstar_ad_component_wrapper .ad_item_card{align-items:normal;background-color:#000000ad;border:2px solid transparent;border-radius:8px;cursor:pointer;display:flex;flex-direction:row;font-family:inherit;height:6rem;margin-left:1rem;padding:10px;transition:all .3s ease;width:21vw}.hotstar_ad_component_wrapper .ad_item_card:hover{border:2px solid #fff}.hotstar_ad_component_wrapper .ad_item_card img{border-radius:8px;height:auto;-o-object-fit:cover;object-fit:cover;width:30%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content{display:flex;flex-direction:column;font-family:inherit;padding:0 10px;width:70%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer{align-items:flex-end;display:flex;flex-direction:row;justify-content:space-between;margin-top:auto}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .delivery_time{align-items:center;color:#fff;display:flex;flex-direction:row;font-family:inherit;font-size:.6rem;gap:4px;margin-top:.4rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .delivery_time p{font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time svg{height:.6rem;width:.6rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price span{font-family:inherit;font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .previous_price{color:#ffffffb3;font-family:inherit;font-size:.6rem;text-decoration:line-through}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .discount{font-family:inherit;font-size:.6rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .title{color:#fff;font-family:inherit;font-size:.8rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .description{color:#ffffffb3;font-family:inherit;font-size:.6rem;margin-top:2px}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price{color:#fff;font-family:inherit;font-size:.6rem;font-weight:500;margin-top:2px}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .brand{width:4rem}.hotstar_ad_component_wrapper .qr_container{background-color:#000000ad;border-radius:8px;display:flex;flex-direction:column;height:6rem;margin-left:auto;padding:.5rem;width:6rem}.hotstar_ad_component_wrapper .qr_container img{border-radius:8px;height:auto;-o-object-fit:contain;object-fit:contain;width:100%}@media only screen and (max-width:650px){.hotstar_ad_component_wrapper{bottom:20%}@media(orientation:landscape){.maxtap_main>p{font-size:calc(1vw + .2rem)}}@media (orientation:portrait){.maxtap_main>p{font-size:calc(1vw + .3rem)}}}";
 styleInject(css_248z);
 
 var LIB_VERSION = "0.1.18";
@@ -45,145 +45,29 @@ var config = {
 var shoppingBagSvg = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-shopping-bag\"><path d=\"M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z\"></path><line x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"></line><path d=\"M16 10a4 4 0 0 1-8 0\"></path></svg>";
 var clockSvg = "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather feather-clock\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><polyline points=\"12 6 12 12 16 14\"></polyline></svg>";
 
-var sampleData = {
-  '1000063091': {
-    contentId: '1000063091',
-    triggerPoints: [{
-      startTime: 5,
-      endTime: 10,
-      ads: [{
-        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
-        title: 'Veg Cheese Pizza',
-        description: 'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
-        price: '₹149',
-        previousPrice: '₹299',
-        discount: '50% off for Hotstar users',
-        redirectUrl: 'https://swiggy.com/search?query=dominos+pizza',
-        deliveryTime: '28 mins',
-        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
-        brandColor: '#FC8019',
-        qrData: {
-          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/pizza-swiggy.png',
-          title: 'Cheese Volcano Blazing Chicken'
-        }
-      }]
-    }, {
-      startTime: 12,
-      endTime: 15,
-      ads: [{
-        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
-        title: 'Veg Cheese Pizza',
-        description: 'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
-        price: '₹149',
-        previousPrice: '₹299',
-        discount: '50% off for Hotstar users',
-        redirectUrl: 'https://swiggy.com/search?query=dominos+pizza',
-        deliveryTime: '28 mins',
-        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
-        brandColor: '#FC8019',
-        qrData: {
-          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/pizza-swiggy.png',
-          title: 'Cheese Volcano Blazing Chicken'
-        }
-      }, {
-        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/oqaxbzhq3wxnyz09upie',
-        title: 'Mango Shrikhand',
-        description: 'Our most selling shrikhad with rich kesar taste',
-        price: '₹100',
-        previousPrice: '₹199',
-        discount: '50% off for Hotstar users',
-        redirectUrl: 'https://www.swiggy.com/search?query=shrikhand',
-        deliveryTime: '7 mins',
-        brandColor: '#FC8019',
-        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
-        qrData: {
-          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/shrikhand-swiggy.png',
-          title: 'Mango Shrikhand'
-        }
-      }]
-    }, {
-      startTime: 17,
-      endTime: 25,
-      ads: [{
-        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg',
-        title: 'Veg Cheese Pizza',
-        description: 'Centre loaded with Molten Cheese & topped with Onion, Capsicum, Tomato & Grilled Mushroom *Contains non-edible container under the Pizza',
-        price: '₹149',
-        previousPrice: '₹299',
-        discount: '50% off for Hotstar users',
-        redirectUrl: 'https://swiggy.com/search?query=dominos+pizza',
-        deliveryTime: '28 mins',
-        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
-        brandColor: '#FC8019',
-        qrData: {
-          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/pizza-swiggy.png',
-          title: 'Cheese Volcano Blazing Chicken'
-        }
-      }, {
-        imageUrl: 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/oqaxbzhq3wxnyz09upie',
-        title: 'Mango Shrikhand',
-        description: 'Our most selling shrikhad with rich kesar taste',
-        price: '₹100',
-        previousPrice: '₹199',
-        discount: '50% off for Hotstar users',
-        redirectUrl: 'https://www.swiggy.com/search?query=shrikhand',
-        deliveryTime: '7 mins',
-        brandColor: '#FC8019',
-        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy.png',
-        qrData: {
-          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/shrikhand-swiggy.png',
-          title: 'Mango Shrikhand'
-        }
-      }, {
-        imageUrl: 'https://instamart-media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/d2fe71ba49d3e43af5d99a3ce3ef5a1b',
-        title: 'Amul Fresh Cream',
-        description: 'Cook with Sanjeev Kapoor',
-        price: '₹220',
-        redirectUrl: 'https://swiggy.com/instamart/search?query=cream',
-        deliveryTime: '6 mins',
-        brandColor: '#FC8019',
-        brandLogoUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy-instamart.png',
-        qrData: {
-          qrImageUrl: 'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/amulcream-swiggy.png',
-          title: 'Amul Fresh Cream'
-        }
-      }]
-    }]
-  }
-};
 var fetchAdData = function fetchAdData(contentId) {
   return new Promise(function (res, rej) {
     try {
       //* Removing trailing '/' from DataUrl
       //* Fetching ad data
-      // fetch(
-      //   'https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/data.json',
-      //   {
-      //     method: 'GET',
-      //     // headers: {
-      //     //   'Content-Type': 'application/json',
-      //     //   Accept: 'application/json',
-      //     // },
-      //   }
-      // )
-      //   .then(fetch_res => {
-      //     fetch_res.json().then((jsonData: []) => {
-      //       //* Sorting according ad data according to start_time
-      //       if (jsonData[contentId]) {
-      //         res(jsonData[contentId].triggerPoints);
-      //       } else {
-      //         rej('No data found');
-      //       }
-      //     });
-      //   })
-      //   .catch(err => {
-      //     rej(err);
-      //   });
-      if (sampleData[contentId]) {
-        res(sampleData[contentId].triggerPoints);
-      } else {
-        rej('No data found');
-      }
+      fetch('https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/data.json', {
+        method: 'GET'
+      }).then(function (fetch_res) {
+        fetch_res.json().then(function (jsonData) {
+          //* Sorting according ad data according to start_time
+          if (jsonData[contentId]) {
+            res(jsonData[contentId].triggerPoints);
+          } else {
+            rej('No data found');
+          }
+        });
+      })["catch"](function (err) {
+        rej(err);
+      }); // if (sampleData[contentId]) {
+      //   res(sampleData[contentId].triggerPoints);
+      // } else {
+      //   rej('No data found');
+      // }
     } catch (err) {
       rej(err);
     }
@@ -487,7 +371,10 @@ var AdComponent = /*#__PURE__*/function () {
         return;
       }
 
-      if (_this.adDivComponent.style.display === 'flex') return;
+      if (_this.adDivComponent.style.display === 'flex') {
+        return;
+      }
+
       if (_this.currentComponentIndex < 0 || !_this.componentsData[_this.currentComponentIndex]) return;
       var currentAdData = _this.componentsData[_this.currentComponentIndex];
 
@@ -502,8 +389,10 @@ var AdComponent = /*#__PURE__*/function () {
       _this.adDivComponent.appendChild(shopButton);
 
       var _loop = function _loop(i) {
+        var _itemCardData$descrip, _itemCardData$descrip2;
+
         var itemCardData = currentAdData.ads[i];
-        var descriptionText = itemCardData.description.length > 70 ? itemCardData.description.slice(0, 70) + '...' : itemCardData.description;
+        var descriptionText = (itemCardData == null ? void 0 : (_itemCardData$descrip = itemCardData.description) == null ? void 0 : _itemCardData$descrip.length) > 70 ? (itemCardData == null ? void 0 : (_itemCardData$descrip2 = itemCardData.description) == null ? void 0 : _itemCardData$descrip2.slice(0, 70)) + '...' : itemCardData.description;
         var item = document.createElement('a');
         var title = itemCardData.title;
         var priceHtml = "";
@@ -516,7 +405,7 @@ var AdComponent = /*#__PURE__*/function () {
           priceHtml = "<p class=\"price\">\n          <strong>" + itemCardData.price + "</strong>\n          <span class=\"previous_price\">" + itemCardData.previousPrice + "</span>\n          <span class=\"discount\" style=\"color:" + itemCardData.brandColor + "!important;\">(" + itemCardData.discount + ")</span>\n        </p>";
         }
 
-        item.onclick = function () {
+        item.onmousemove = function () {
           document.querySelectorAll('.qr_container').forEach(function (qr) {
             qr.style.display = 'none';
           });
@@ -531,7 +420,7 @@ var AdComponent = /*#__PURE__*/function () {
         _this.adDivComponent.appendChild(item);
       };
 
-      for (var i = 0; i < currentAdData.ads.length && i < 3;) {
+      for (var i = 0; i < currentAdData.ads.length; i++) {
         _loop(i);
       } // if (currentAdData.ads.length > 0) {
       //   // Put "Or" text

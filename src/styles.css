@@ -39,6 +39,12 @@
 	color: #fff;
 	font-weight: 500;
 	height: 6rem;
+	border: 2px solid transparent ;
+	transition: all 0.3s ease;
+}
+
+.hotstar_ad_component_wrapper .shop-button:hover {
+	border: 2px solid #fff;
 }
 
 .hotstar_ad_component_wrapper .shop-button span {
@@ -64,6 +70,12 @@
 	cursor: pointer;
 	margin-left: 1rem;
 	font-family: inherit;
+	transition: all 0.3s ease;
+	border: 2px solid transparent;
+}
+
+.hotstar_ad_component_wrapper .ad_item_card:hover {
+	border: 2px solid #fff;
 }
 
 .hotstar_ad_component_wrapper .ad_item_card img {
@@ -146,7 +158,7 @@
 .hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .description {
 	font-family: inherit;
 	color: #ffffffb3;
-	font-size: 0.9rem;
+	font-size: 0.6rem;
 	margin-top: 2px;
 }
 
@@ -167,6 +179,7 @@
 	border-radius: 8px;
 	display: flex;
 	flex-direction: column;
+	margin-left: auto;
 	height: 6rem;
 	width: 6rem;
 	padding: 0.5rem;

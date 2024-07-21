@@ -276,7 +276,9 @@ class AdComponent {
       });
       return;
     }
-    if (this.adDivComponent.style.display === 'flex') return;
+    if (this.adDivComponent.style.display === 'flex') {
+      return;
+    }
     if (
       this.currentComponentIndex < 0 ||
       !this.componentsData[this.currentComponentIndex]
@@ -293,11 +295,11 @@ class AdComponent {
     shopButton.innerHTML = `${shoppingBagSvg}<span>Shop</span>`;
     this.adDivComponent.appendChild(shopButton);
 
-    for (let i = 0; i < currentAdData.ads.length && i < 3; ) {
+    for (let i = 0; i < currentAdData.ads.length; i++) {
       const itemCardData = currentAdData.ads[i];
       const descriptionText =
-        itemCardData.description.length > 70
-          ? itemCardData.description.slice(0, 70) + '...'
+        itemCardData?.description?.length > 70
+          ? itemCardData?.description?.slice(0, 70) + '...'
           : itemCardData.description;
       const item = document.createElement('a');
 
@@ -314,7 +316,7 @@ class AdComponent {
           <span class="discount" style="color:${itemCardData.brandColor}!important;">(${itemCardData.discount})</span>
         </p>`;
       }
-      item.onclick = () => {
+      item.onmousemove = () => {
         document
           .querySelectorAll('.qr_container')
           .forEach((qr: HTMLDivElement) => {

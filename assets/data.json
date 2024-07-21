@@ -4,7 +4,7 @@
         "triggerPoints": [
             {
                 "startTime": 5,
-                "endTime": 16,
+                "endTime": 15,
                 "ads": [
                     {
                         "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg",
@@ -55,8 +55,8 @@
                 ]
             },
             {
-                "startTime": 20,
-                "endTime": 30,
+                "startTime": 17,
+                "endTime": 25,
                 "ads": [
                     {
                         "imageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/images/hair-styling.jpg",
@@ -72,7 +72,13 @@
                         "qrData": {
                             "qrImageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/hairsaloon-UC.png"
                         }
-                    },
+                    }
+                ]
+            },
+            {
+                "startTime": 27,
+                "endTime": 35,
+                "ads": [
                     {
                         "title": "Choker Necklace (Similar to Radhika)",
                         "imageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/images/necklace.png",
@@ -100,6 +106,40 @@
                         },
                         "redirectUrl": "https://www.dineout.co.in/delhi/cilantro-udyog-vihar-gurgaon-2657",
                         "price": "₹1200"
+                    }
+                ]
+            },
+            {
+                "startTime": 38,
+                "endTime": 45,
+                "ads": [
+                    {
+                        "title": "Black Crop Top (Similar to Radhika)",
+                        "imageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/images/necklace.png",
+                        "price": "₹399",
+                        "previousPrice": "₹799",
+                        "discount": "50% off for Hotstar users",
+                        "redirectUrl": "https://www.myntra.com/tops/sassafras/sassafras-black-high-neck-cropped-top/12222036/buy",
+                        "deliveryTime": "1day",
+                        "brandColor": "##F41CB2",
+                        "brandLogoUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/myntra.png",
+                        "qrData": {
+                            "qrImageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/croptop-myntra.png"
+                        }
+                    },
+                    {
+                        "title": "Popcorn and Coke (Combo)",
+                        "imageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/images/popcorn-coke.png",
+                        "previousPrice": "₹249",
+                        "price": "₹49",
+                        "discount": "80% off for Hotstar users",
+                        "deliveryTime": "5mins",
+                        "brandColor": "#FC8019",
+                        "brandLogoUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy-dineout.png",
+                        "qrData": {
+                            "qrImageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/popcorncoke-swiggyinstamart.png"
+                        },
+                        "redirectUrl": "https://www.swiggy.com/instamart/search?query=coke+popcorn"
                     }
                 ]
             }
