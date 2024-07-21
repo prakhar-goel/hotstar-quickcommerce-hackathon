@@ -80,7 +80,7 @@
                 "endTime": 35,
                 "ads": [
                     {
-                        "title": "Choker Necklace (Similar to Radhika)",
+                        "title": "Choker Necklace",
                         "imageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/images/necklace.png",
                         "price": "₹100",
                         "previousPrice": "₹199",
@@ -114,8 +114,8 @@
                 "endTime": 45,
                 "ads": [
                     {
-                        "title": "Black Crop Top (Similar to Radhika)",
-                        "imageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/images/necklace.png",
+                        "title": "Black Crop Top",
+                        "imageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/images/black-crop-top.png",
                         "price": "₹399",
                         "previousPrice": "₹799",
                         "discount": "50% off for Hotstar users",
