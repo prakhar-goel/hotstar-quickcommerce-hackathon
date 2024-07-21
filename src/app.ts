@@ -293,7 +293,8 @@ class AdComponent {
     shopButton.innerHTML = `${shoppingBagSvg}<span>Shop</span>`;
     this.adDivComponent.appendChild(shopButton);
 
-    for (const itemCardData of currentAdData.ads) {
+    for (let i = 0; i < currentAdData.ads.length && i < 3; ) {
+      const itemCardData = currentAdData.ads[i];
       const descriptionText =
         itemCardData.description.length > 70
           ? itemCardData.description.slice(0, 70) + '...'
@@ -313,6 +314,14 @@ class AdComponent {
           <span class="discount" style="color:${itemCardData.brandColor}!important;">(${itemCardData.discount})</span>
         </p>`;
       }
+      item.onclick = () => {
+        document
+          .querySelectorAll('.qr_container')
+          .forEach((qr: HTMLDivElement) => {
+            qr.style.display = 'none';
+          });
+        document.getElementById(`qr_card_${i}`).style.display = 'flex';
+      };
       item.className = 'ad_item_card';
       item.href = itemCardData.redirectUrl;
       item.target = '_blank';
@@ -338,15 +347,16 @@ class AdComponent {
     //   orText.innerHTML = 'OR';
     //   this.adDivComponent.appendChild(orText);
     // }
-
-    if (currentAdData.qrData) {
-      const qrCard = document.createElement('div');
-      qrCard.className = 'qr_container';
-      qrCard.innerHTML = `
-      <img src="${currentAdData.qrData.qrImageUrl}" alt="${currentAdData.qrData.title}"/>
-      <p>${currentAdData.qrData.title}</p>
-      `;
-      this.adDivComponent.appendChild(qrCard);
+    for (let i = 0; i < currentAdData.ads.length; i++) {
+      const adData = currentAdData.ads[i];
+      if (adData.qrData) {
+        const qrCard = document.createElement('div');
+        qrCard.className = 'qr_container';
+        qrCard.id = `qr_card_${i}`;
+        qrCard.innerHTML = `<img src="${adData.qrData.qrImageUrl}" alt="${adData.qrData.title}"/>`;
+        qrCard.style.display = i === 0 ? 'flex' : 'none';
+        this.adDivComponent.appendChild(qrCard);
+      }
     }
     this.adDivComponent.style.display = 'flex';
     // main_component.innerHTML = component_html;

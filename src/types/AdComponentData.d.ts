@@ -12,9 +12,9 @@ export default interface AdComponentData {
     deliveryTime: string;
     brandLogoUrl: string;
     brandColor:string
+    qrData: {
+      qrImageUrl: string;
+      title: string;
+    };
   }[];
-  qrData: {
-    qrImageUrl: string;
-    title: string;
-  };
 }

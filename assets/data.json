@@ -1,10 +1,10 @@
 {
-    "1000063091": {
-        "contentId": "1000063091",
+    "1000059862": {
+        "contentId": "1000059862",
         "triggerPoints": [
             {
                 "startTime": 5,
-                "endTime": 20,
+                "endTime": 16,
                 "ads": [
                     {
                         "imageUrl": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/FOOD_CATALOG/IMAGES/CMS/2024/7/4/4e30b1ff-dbe8-41d3-b083-d46b9d742ffc_636d161e-7f34-4371-b63c-bf9e3d091a0f.jpg",
@@ -51,6 +51,55 @@
                             "qrImageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/amulcream-swiggy.png",
                             "title": "Amul Fresh Cream"
                         }
+                    }
+                ]
+            },
+            {
+                "startTime": 20,
+                "endTime": 30,
+                "ads": [
+                    {
+                        "imageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/images/hair-styling.jpg",
+                        "title": "Book Hair Saloon ",
+                        "description": "Our most selling shrikhad with rich kesar taste",
+                        "price": "₹299",
+                        "previousPrice": "₹599",
+                        "discount": "50% off for Hotstar users",
+                        "redirectUrl": "https://www.urbancompany.com/delhi-ncr-women-hair-services",
+                        "deliveryTime": "59 mins",
+                        "brandColor": "#7BA9FA",
+                        "brandLogoUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/urban-company.webp",
+                        "qrData": {
+                            "qrImageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/hairsaloon-UC.png"
+                        }
+                    },
+                    {
+                        "title": "Choker Necklace (Similar to Radhika)",
+                        "imageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/images/necklace.png",
+                        "price": "₹100",
+                        "previousPrice": "₹199",
+                        "discount": "50% off for Hotstar users",
+                        "redirectUrl": "https://www.nykaafashion.com/zurooh-18k-gold-plated-abstract-black-onyx-statement-choker/p/9570381",
+                        "deliveryTime": "7 mins",
+                        "brandColor": "#FC2779",
+                        "brandLogoUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/nykaa.png",
+                        "qrData": {
+                            "qrImageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/necklace-nykaa.png",
+                            "title": "Choker Necklace"
+                        }
+                    },
+                    {
+                        "title": "Book Dinner at Cilantro, Gurgaon",
+                        "imageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/images/swiggydineout-cilantro.webp",
+                        "description": "Celebrate with your better half",
+                        "deliveryTime": "Instantly",
+                        "brandColor": "#FC8019",
+                        "brandLogoUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/brands/swiggy-dineout.png",
+                        "qrData": {
+                            "qrImageUrl": "https://raw.githubusercontent.com/prakhar-goel/hotstar-quickcommerce-hackathon/main/assets/qr-codes/cilantro-swiggydineout.png"
+                        },
+                        "redirectUrl": "https://www.dineout.co.in/delhi/cilantro-udyog-vihar-gurgaon-2657",
+                        "price": "₹1200"
                     }
                 ]
             }

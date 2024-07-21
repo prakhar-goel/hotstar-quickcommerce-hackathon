@@ -31,48 +31,10 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = ".hotstar_ad_component_wrapper{align-items:end;box-sizing:border-box;display:flex;flex-direction:row;font-family:inherit;height:100%;left:0;padding-bottom:7.5rem;padding-left:7rem;padding-right:7rem;position:absolute;top:0;width:100%;z-index:100}.hotstar_ad_component_wrapper .or_text{color:#fff;font-size:1rem;font-weight:500;height:10rem;margin-left:auto;margin-right:auto}.hotstar_ad_component_wrapper .shop-button{align-items:center;background-color:#000000ad;border-radius:8px;color:#fff;display:flex;flex-direction:column;font-weight:500;gap:4px;height:6rem;justify-content:center;padding:10px;width:6rem}.hotstar_ad_component_wrapper .shop-button span{font-family:inherit;font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .shop-button svg{height:.6rem;width:.6rem}.hotstar_ad_component_wrapper .ad_item_card{align-items:normal;background-color:#000000ad;border-radius:8px;cursor:pointer;display:flex;flex-direction:row;font-family:inherit;height:6rem;margin-left:1rem;padding:10px;width:21vw}.hotstar_ad_component_wrapper .ad_item_card img{border-radius:8px;height:auto;-o-object-fit:cover;object-fit:cover;width:30%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content{display:flex;flex-direction:column;font-family:inherit;padding:0 10px;width:70%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer{align-items:center;display:flex;flex-direction:row;justify-content:space-between}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .delivery_time{align-items:center;color:#fff;display:flex;flex-direction:row;font-family:inherit;font-size:.6rem;gap:4px;margin-top:.4rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .delivery_time p{font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time svg{height:.6rem;width:.6rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price span{font-family:inherit;font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .previous_price{color:#ffffffb3;font-family:inherit;font-size:.6rem;text-decoration:line-through}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .discount{font-family:inherit;font-size:.6rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .title{color:#fff;font-family:inherit;font-size:.8rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .description{color:#ffffffb3;font-family:inherit;font-size:.9rem;margin-top:2px}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price{color:#fff;font-family:inherit;font-size:.6rem;font-weight:500;margin-top:2px}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .brand{width:4rem}.hotstar_ad_component_wrapper .qr_container{background-color:#00000079;border-radius:8px;display:flex;flex-direction:column;height:20rem;padding:1rem;width:18rem}.hotstar_ad_component_wrapper .qr_container img{border-radius:8px;height:auto;-o-object-fit:contain;object-fit:contain;width:100%}.hotstar_ad_component_wrapper .qr_container p{color:#fff;font-size:1rem;font-weight:500;margin-top:1rem;text-align:center}@media only screen and (max-width:650px){.hotstar_ad_component_wrapper{bottom:20%}@media(orientation:landscape){.maxtap_main>p{font-size:calc(1vw + .2rem)}}@media (orientation:portrait){.maxtap_main>p{font-size:calc(1vw + .3rem)}}}";
+var css_248z = ".hotstar_ad_component_wrapper{align-items:end;box-sizing:border-box;display:flex;flex-direction:row;font-family:inherit;height:100%;left:0;padding-bottom:7.5rem;padding-left:7rem;padding-right:7rem;position:absolute;top:0;width:100%;z-index:100}.hotstar_ad_component_wrapper .or_text{color:#fff;font-size:1rem;font-weight:500;height:10rem;margin-left:auto;margin-right:auto}.hotstar_ad_component_wrapper .shop-button{align-items:center;background-color:#000000ad;border-radius:8px;color:#fff;display:flex;flex-direction:column;font-weight:500;gap:4px;height:6rem;justify-content:center;padding:10px;width:6rem}.hotstar_ad_component_wrapper .shop-button span{font-family:inherit;font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .shop-button svg{height:.6rem;width:.6rem}.hotstar_ad_component_wrapper .ad_item_card{align-items:normal;background-color:#000000ad;border-radius:8px;cursor:pointer;display:flex;flex-direction:row;font-family:inherit;height:6rem;margin-left:1rem;padding:10px;width:21vw}.hotstar_ad_component_wrapper .ad_item_card img{border-radius:8px;height:auto;-o-object-fit:cover;object-fit:cover;width:30%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content{display:flex;flex-direction:column;font-family:inherit;padding:0 10px;width:70%}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer{align-items:flex-end;display:flex;flex-direction:row;justify-content:space-between;margin-top:auto}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .delivery_time{align-items:center;color:#fff;display:flex;flex-direction:row;font-family:inherit;font-size:.6rem;gap:4px;margin-top:.4rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .delivery_time p{font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .delivery_time svg{height:.6rem;width:.6rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price span{font-family:inherit;font-size:.6rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .previous_price{color:#ffffffb3;font-family:inherit;font-size:.6rem;text-decoration:line-through}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price .discount{font-family:inherit;font-size:.6rem}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .title{color:#fff;font-family:inherit;font-size:.8rem;font-weight:500}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .description{color:#ffffffb3;font-family:inherit;font-size:.9rem;margin-top:2px}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .price{color:#fff;font-family:inherit;font-size:.6rem;font-weight:500;margin-top:2px}.hotstar_ad_component_wrapper .ad_item_card .ad_item_card_content .footer .brand{width:4rem}.hotstar_ad_component_wrapper .qr_container{background-color:#000000ad;border-radius:8px;display:flex;flex-direction:column;height:6rem;padding:.5rem;width:6rem}.hotstar_ad_component_wrapper .qr_container img{border-radius:8px;height:auto;-o-object-fit:contain;object-fit:contain;width:100%}@media only screen and (max-width:650px){.hotstar_ad_component_wrapper{bottom:20%}@media(orientation:landscape){.maxtap_main>p{font-size:calc(1vw + .2rem)}}@media (orientation:portrait){.maxtap_main>p{font-size:calc(1vw + .3rem)}}}";
 styleInject(css_248z);
 
 var LIB_VERSION = "0.1.18";
-
-function _unsupportedIterableToArray(o, minLen) {
-  if (!o) return;
-  if (typeof o === "string") return _arrayLikeToArray(o, minLen);
-  var n = Object.prototype.toString.call(o).slice(8, -1);
-  if (n === "Object" && o.constructor) n = o.constructor.name;
-  if (n === "Map" || n === "Set") return Array.from(o);
-  if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen);
-}
-
-function _arrayLikeToArray(arr, len) {
-  if (len == null || len > arr.length) len = arr.length;
-
-  for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i];
-
-  return arr2;
-}
-
-function _createForOfIteratorHelperLoose(o, allowArrayLike) {
-  var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"];
-  if (it) return (it = it.call(o)).next.bind(it);
-
-  if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") {
-    if (it) o = it;
-    var i = 0;
-    return function () {
-      if (i >= o.length) return {
-        done: true
-      };
-      return {
-        done: false,
-        value: o[i++]
-      };
-    };
-  }
-
-  throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
-}
 
 var config = {
   GoogleAnalyticsCode: 'G-G5RBRDVPCF',
@@ -543,8 +505,8 @@ var AdComponent = /*#__PURE__*/function () {
 
       _this.adDivComponent.appendChild(shopButton);
 
-      for (var _iterator = _createForOfIteratorHelperLoose(currentAdData.ads), _step; !(_step = _iterator()).done;) {
-        var itemCardData = _step.value;
+      var _loop = function _loop(i) {
+        var itemCardData = currentAdData.ads[i];
         var descriptionText = itemCardData.description.length > 70 ? itemCardData.description.slice(0, 70) + '...' : itemCardData.description;
         var item = document.createElement('a');
         var title = itemCardData.title;
@@ -558,12 +520,23 @@ var AdComponent = /*#__PURE__*/function () {
           priceHtml = "<p class=\"price\">\n          <strong>" + itemCardData.price + "</strong>\n          <span class=\"previous_price\">" + itemCardData.previousPrice + "</span>\n          <span class=\"discount\" style=\"color:" + itemCardData.brandColor + "!important;\">(" + itemCardData.discount + ")</span>\n        </p>";
         }
 
+        item.onclick = function () {
+          document.querySelectorAll('.qr_container').forEach(function (qr) {
+            qr.style.display = 'none';
+          });
+          document.getElementById("qr_card_" + i).style.display = 'flex';
+        };
+
         item.className = 'ad_item_card';
         item.href = itemCardData.redirectUrl;
         item.target = '_blank';
         item.innerHTML = "\n      <img src=\"" + itemCardData.imageUrl + "\" alt=\"" + itemCardData.title + "\"/>\n      <div class=\"ad_item_card_content\">\n        <h3 class=\"title\">" + title + "</h3>\n        " + descriptionHtml + "\n        " + priceHtml + "\n        <div class=\"footer\">\n          <div class=\"delivery_time\">" + clockSvg + "<p>" + itemCardData.deliveryTime + "</p></div>\n          <img class=\"brand\" src=\"" + itemCardData.brandLogoUrl + "\" alt=\"brand-logo\"/>\n        </div>\n      </div>\n      ";
 
         _this.adDivComponent.appendChild(item);
+      };
+
+      for (var i = 0; i < currentAdData.ads.length && i < 3;) {
+        _loop(i);
       } // if (currentAdData.ads.length > 0) {
       //   // Put "Or" text
       //   const orText = document.createElement('p');
@@ -573,12 +546,18 @@ var AdComponent = /*#__PURE__*/function () {
       // }
 
 
-      if (currentAdData.qrData) {
-        var qrCard = document.createElement('div');
-        qrCard.className = 'qr_container';
-        qrCard.innerHTML = "\n      <img src=\"" + currentAdData.qrData.qrImageUrl + "\" alt=\"" + currentAdData.qrData.title + "\"/>\n      <p>" + currentAdData.qrData.title + "</p>\n      ";
+      for (var _i = 0; _i < currentAdData.ads.length; _i++) {
+        var adData = currentAdData.ads[_i];
 
-        _this.adDivComponent.appendChild(qrCard);
+        if (adData.qrData) {
+          var qrCard = document.createElement('div');
+          qrCard.className = 'qr_container';
+          qrCard.id = "qr_card_" + _i;
+          qrCard.innerHTML = "<img src=\"" + adData.qrData.qrImageUrl + "\" alt=\"" + adData.qrData.title + "\"/>";
+          qrCard.style.display = _i === 0 ? 'flex' : 'none';
+
+          _this.adDivComponent.appendChild(qrCard);
+        }
       }
 
       _this.adDivComponent.style.display = 'flex'; // main_component.innerHTML = component_html;
